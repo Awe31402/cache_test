@@ -1,0 +1,28 @@
+## 
+This is a test bench for realizing how locality
+of a program affect cache miss rate and execution 
+time.
+##
+
+######################################
+Before run the program:
+#####################################
+You need to install valgrind and gnuplot
+
+sudo apt-get install valgrind gnuplot-x11
+
+######################
+How to use it
+#####################
+To generate row data and it's plot graph,
+follow these setps:
+
+1. ./cache.sh
+
+this step will generate data whitch indicate the 
+relationship between miss rate and matrix dimension
+
+2. ./cache.sh t
+
+this step will generate data whitch indicate the 
+relationship between execution time  and matrix dimension
